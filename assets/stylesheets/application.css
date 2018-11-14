@@ -1,0 +1,12 @@
+.nav-link{
+  font-size: 12px;
+}
+
+.btn-nav{
+  font-size: 12px;
+  border-radius: 35px;
+  padding: 5px 25px;
+  background-color: #45CCFF;
+  color: #fff;
+  margin-left: 30px;
+}
