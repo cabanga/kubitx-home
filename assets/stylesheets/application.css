@@ -113,3 +113,77 @@
 .section-2{
   background-color: red;
 }
+
+
+.span-number{
+  font-size: 3.5rem;
+  color: #ccc;
+  position: absolute;
+  z-index: -1;
+  font-weight: bolder;
+}
+
+
+.number1{
+  right: 84px;
+  top: 30px;
+}
+
+.number2{
+  left: 92px;
+  top: 25px;
+}
+
+.number3{
+  right: 84px;
+  top: 30px;
+}
+
+.number1{
+  right: 84px;
+  top: 30px;
+}
+
+
+.m-top-20{
+  margin-top: 20px;
+}
+
+.m-top-100{
+  margin-top: 100px;
+}
+
+.p-col{
+  padding: 50px 80px;
+}
+
+.p-col-left{
+  padding: 50px 80px;
+  text-align: left;
+}
+
+.p-col-right{
+  padding: 50px 80px;
+  text-align: right;
+}
+
+.text-title{
+  color: #36b3e8;
+}
+
+.text-title-2{
+  color: #52cbff;
+}
+
+.center-xs {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.middle-xs {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
