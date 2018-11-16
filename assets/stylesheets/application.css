@@ -34,37 +34,6 @@
   padding: 8px 35px;
 }
 
-@media (min-width: 969px) {
-  .text-header{
-    color: #959a9e;
-    width: 700px;
-    float: right;
-    margin-top: 5rem;
-    padding: 100px;
-  }
-
-  .h4-align{
-    text-align: right !important;
-  }
-}
-
-@media (max-width: 968px) {
-  .text-header{
-
-    color: #959a9e;
-    width: 100%;
-    margin-top: 3rem;
-    padding: 5px;
-    text-align: justify;
-    float: initial;
-
-  }
-
-  .h4-align{
-    text-align: center !important;
-  }
-}
-
 .nav-item{
   margin-left: 20px;
 }
@@ -94,11 +63,6 @@
   color: #fff;
 }
 
-.col-card{
-  background-color: #fff;
-  margin: 15px;
-  border-radius: 10px;
-}
 
 .dark-section-1{
   border-bottom-right-radius: 15px;
@@ -287,4 +251,91 @@
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+}
+
+.col-card{
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.details-volume{
+  font-size: 20px;
+  color: #78787896;
+  font-weight: 100;
+}
+
+.detais-number{
+  font-size: 20px;
+  color: #787878;
+  text-align: left;
+
+}
+
+.details-value{
+  font-size: 16px;
+  color: #78787896;
+  margin-left: 2px;
+}
+
+.detais-bnb{
+  color: #1ABC9C;
+  font-size: 20px;
+  text-align: left;
+}
+
+.details-percent{
+  color: #BC1A1A;
+  font-size: 15px;
+  text-align: right;
+  float: right;
+  margin-top: 5px;
+}
+
+/* ============================== ============ ===================*/
+/* ============================== ============ ===================*/
+/* ============================== ============ ===================*/
+/* ============================== MEDIA QUERYS ===================*/
+
+
+/* ============================== DESKTOP ===================*/
+@media (min-width: 969px) {
+  .text-header{
+    color: #959a9e;
+    width: 700px;
+    float: right;
+    margin-top: 5rem;
+    padding: 100px;
+  }
+
+  .h4-align{
+    text-align: right !important;
+  }
+
+  .col-card{
+    padding: 15px 15px 10px 15px;
+  }
+
+
+}
+
+/* ============================== MOBILE ===================*/
+@media (max-width: 968px) {
+
+  .col-card{
+    padding: 25px;
+  }
+
+  .text-header{
+    color: #959a9e;
+    width: 100%;
+    margin-top: 3rem;
+    padding: 5px;
+    text-align: justify;
+    float: initial;
+  }
+
+  .h4-align{
+    text-align: center !important;
+  }
 }
