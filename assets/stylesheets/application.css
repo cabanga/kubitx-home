@@ -1,11 +1,11 @@
 @font-face {
   font-family: "SF light";
-  src: url("./fonts/sf-ui-display-light.otf") format("truetype");
+  src: url("../fonts/sf-ui-display-light.otf") format("truetype");
 }
 
 @font-face {
   font-family: "SF bold";
-  src: url("./fonts/sf-ui-display-bold.otf") format("truetype");
+  src: url("../fonts/sf-ui-display-bold.otf") format("truetype");
 }
 
 *{
@@ -94,34 +94,14 @@
 
 .span-number{
   font-size: 3.5rem;
-  color: #7878781f;
+  color: #78787870;
   position: absolute;
   z-index: -1;
   font-weight: bolder;
-}
-
-.number1{
-  right: 84px;
-  top: 30px;
-}
-
-.number1{
-  right: 84px;
-  top: 26px;
   font-family: "SF bold", Verdana, Tahoma;
+
 }
 
-.number2{
-  left: 92px;
-  top: 21px;
-  font-family: "SF bold", Verdana, Tahoma;
-}
-
-.number3{
-  right: 84px;
-  top: 26px;
-  font-family: "SF bold", Verdana, Tahoma;
-}
 
 
 .m-top-20{
@@ -134,16 +114,6 @@
 
 .p-col{
   padding: 50px 80px;
-}
-
-.p-col-left{
-  padding: 50px 80px;
-  text-align: left;
-}
-
-.p-col-right{
-  padding: 50px 80px;
-  text-align: right;
 }
 
 .text-title{
@@ -335,8 +305,61 @@ a.footer-color{
     padding: 15px 15px 10px 15px;
   }
 
+  .p-col-left{
+    padding: 50px 80px;
+    text-align: left;
+  }
+
+  .p-col-right{
+    padding: 50px 80px;
+    text-align: right;
+  }
+
+  .number1{
+    right: 84px;
+    top: 26px;
+  }
+
+  .number2{
+    left: 92px;
+    top: 21px;
+  }
+
+  .number3{
+    right: 84px;
+    top: 26px;
+  }
 
 }
+
+/* ============================== TABLE PLUS ===================*/
+@media (min-width: 770px) {
+
+  .text-right-xs{
+    float: right;
+  }
+
+  .no-m-xs{
+    margin-left: 20px
+  }
+
+}
+
+
+/* ============================== TABLE ===================*/
+@media (max-width: 768px) {
+
+  .text-right-xs{
+    float: left;
+  }
+  .no-m-xs{
+    margin-left: 15px
+  }
+
+
+}
+
+
 
 /* ============================== MOBILE ===================*/
 @media (max-width: 968px) {
@@ -357,4 +380,33 @@ a.footer-color{
   .h4-align{
     text-align: center !important;
   }
+
+  .p-col-left{
+    padding: 10px;
+    margin-top: 36px;
+    text-align: left;
+  }
+
+  .p-col-right{
+    padding: 10px;
+    margin-top: 36px;
+    text-align: right;
+  }
+
+
+  .number1{
+    right: 20px;
+    top: 24px;
+  }
+
+  .number2{
+    left: 22px;
+    top: 20px;
+  }
+
+  .number3{
+    right: 21px;
+    top: 24px;
+  }
+
 }
