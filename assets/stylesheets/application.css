@@ -16,6 +16,15 @@
 /* ============================== ============ ===================*/
 /* ============================== ============ ===================*/
 
+.navbar-light .navbar-toggler{
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus{
+  outline: 0;
+}
+
 .grafic-bg{
   background: url(../images/graf.png);
   background-repeat: no-repeat;
@@ -329,8 +338,9 @@ a.footer-color{
     color: #959a9e;
     width: 700px;
     float: right;
-    margin-top: 5rem;
+    margin-top: 5vh;
     padding: 100px;
+    vertical-align: middle;
   }
 
   .h4-align{
@@ -405,10 +415,11 @@ a.footer-color{
   .text-header{
     color: #959a9e;
     width: 100%;
-    margin-top: 3rem;
     padding: 5px;
     text-align: justify;
     float: initial;
+    margin-top: 20vh;
+    vertical-align: middle;
   }
 
   .h4-align{
