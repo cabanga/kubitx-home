@@ -12,6 +12,25 @@
   font-family: 'SF light', sans-serif;
 }
 
+/* ============================== ============ ===================*/
+/* ============================== ============ ===================*/
+/* ============================== ============ ===================*/
+
+.grafic-bg{
+  background: url(../images/graf.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+.section-bg{
+  background: url(../images/headerBg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 .nav-link{
   font-size: 12px;
 }
