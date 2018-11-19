@@ -114,8 +114,6 @@
 .span-number{
   font-size: 3.5rem;
   color: #78787870;
-  position: absolute;
-  z-index: -1;
   font-weight: bolder;
   font-family: "SF bold", Verdana, Tahoma;
 
@@ -353,21 +351,6 @@ a.footer-color{
     text-align: right;
   }
 
-  .number1{
-    right: 84px;
-    top: 26px;
-  }
-
-  .number2{
-    left: 92px;
-    top: 21px;
-  }
-
-  .number3{
-    right: 84px;
-    top: 26px;
-  }
-
 }
 
 /* ============================== TABLE PLUS ===================*/
@@ -444,21 +427,6 @@ a.footer-color{
     text-align: right;
   }
 
-
-  .number1{
-    right: 20px;
-    top: 24px;
-  }
-
-  .number2{
-    left: 22px;
-    top: 20px;
-  }
-
-  .number3{
-    right: 21px;
-    top: 24px;
-  }
 
 }
 
