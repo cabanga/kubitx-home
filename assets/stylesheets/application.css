@@ -246,7 +246,7 @@
 }
 
 .font1{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
 }
 
@@ -445,8 +445,8 @@ a.footer-color{
 
 @media (min-width: 435px) {
   .separate-xs{
-    margin-top: 60%;
-    margin-bottom: 20%;
+    margin-top: 35%;
+    margin-bottom: 10%;
   }
 }
 
