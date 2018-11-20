@@ -366,10 +366,6 @@ a.footer-color{
 /* ============================== TABLE PLUS ===================*/
 @media (min-width: 770px) {
 
-  .p-body{
-    padding: 80px 150px;
-  }
-
   .text-right-xs{
     float: right;
   }
@@ -454,4 +450,40 @@ a.footer-color{
     margin-top: 15%;
     margin-bottom: 15%;
   }
+}
+
+
+
+@media (min-width: 766px) {
+  .landing-hidden-xs{
+    display: block;
+    visibility: visible;
+  }
+
+  .landing-hidden-lg{
+    display: none;
+    visibility: hidden;
+  }
+
+  .p-body{
+    padding: 40px 150px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .p-body{
+    padding: 40px 80px;
+  }
+
+  .landing-hidden-xs{
+    display: none;
+    visibility: hidden;
+  }
+
+  .landing-hidden-lg{
+    display: block;
+    visibility: visible;
+  }
+
 }
