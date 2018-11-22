@@ -450,11 +450,15 @@ a.footer-color{
     margin-top: 15%;
     margin-bottom: 15%;
   }
+
 }
 
 
 
 @media (min-width: 766px) {
+  .nav-xs{
+  }
+
   .landing-hidden-xs{
     display: block;
     visibility: visible;
@@ -472,6 +476,12 @@ a.footer-color{
 
 
 @media (max-width: 768px) {
+  .nav-xs{
+    display: block !important;
+    text-align: right;
+    padding-right: 15px;
+  }
+
   .p-body{
     padding: 40px 80px;
   }
